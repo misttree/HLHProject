@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace HLHApp.ARMAModel
 {
+    /* ARMA模型：本身具有能够执行多点预测的能力
+     * 
+     */
     class MainModel
     {
 

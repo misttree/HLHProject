@@ -5,6 +5,7 @@ namespace HLHApp
 {
     /* 灰色系统预测模型
      * 主要问题为解决如何进行多点预测处理的问题
+     * 
      */
     class GrayModel
     {
