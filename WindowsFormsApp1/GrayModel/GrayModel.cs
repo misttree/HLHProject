@@ -3,6 +3,9 @@ using System;
 using System.Collections.Generic;
 namespace HLHApp
 {
+    /* 灰色系统预测模型
+     * 
+     */
     class GrayModel
     {
         private double a0, a1, a2;  // 灰度值参数
