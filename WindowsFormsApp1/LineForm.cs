@@ -17,6 +17,7 @@ namespace HLHApp
 
         private GrayModel graymodel;  // 声明灰色系统模型，进行时间序列的预测处理
         private Thread thread;
+        private Connecter connecter; // 用于数据库存储处理的对象
 
         public ChartValues<MeasureModel> ChartValues { get; set; }
         public ChartValues<MeasureModel> ChartPredictionValues { get; set; }
@@ -28,6 +29,7 @@ namespace HLHApp
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
 
+            connecter = new Connecter();
             graymodel = new GrayModel();
             ShowChart();
 
@@ -112,6 +114,7 @@ namespace HLHApp
 
         public void InsertMeasureModel(DateTime date_time, Double value)
         {
+            connecter.InsertData(date_time, value);
             MeasureModel mm = new MeasureModel();
             mm.DateTime = date_time;
             mm.Value = value;

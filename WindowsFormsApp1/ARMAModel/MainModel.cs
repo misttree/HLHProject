@@ -11,7 +11,6 @@ namespace HLHApp.ARMAModel
      */
     class MainModel
     {
-
         List<double> dataArray;
         private double p;
         private double q;
