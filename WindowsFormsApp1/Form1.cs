@@ -1067,9 +1067,19 @@ namespace HLHApp
 
         private void materialRaisedButton2_Click(object sender, EventArgs e)
         {
-            newline = new LineForm();
-            newline.Show();
-            ShowChart = true;
+            if (LoginFlag)
+            {
+                newline = new LineForm();
+                newline.Text = "总变量";
+                newline.Show();
+                ShowChart = true;
+            }
+            else
+            {
+                MessageBox.Show("未连接组态王", "组态王信息", MessageBoxButtons.OK);
+            }
+            
         }
+
     }
 }
