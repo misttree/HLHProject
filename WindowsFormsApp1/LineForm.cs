@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
+using System.Windows.Forms;
 namespace HLHApp
 {
     public partial class LineForm : MaterialForm
@@ -228,6 +229,7 @@ namespace HLHApp
                 Thread.Sleep(1000);  // 设置进程等待时间
             }
         }
+
 
     }
 }
