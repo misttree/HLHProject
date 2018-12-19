@@ -3561,7 +3561,7 @@
             this.materialLabel4.Location = new System.Drawing.Point(3, 132);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(84, 24);
+            this.materialLabel4.Size = new System.Drawing.Size(132, 24);
             this.materialLabel4.TabIndex = 2;
             this.materialLabel4.Text = "自回归滑动平均模型";
             // 
