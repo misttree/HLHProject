@@ -254,14 +254,14 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
-            this.materialFlatButtonConnect = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
+            this.materialFlatButtonConnect = new MaterialSkin.Controls.MaterialRaisedButton();
             this.statusStrip1.SuspendLayout();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -3516,54 +3516,30 @@
             this.tabPage3.Text = "算法";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // materialTabSelector1
+            // materialLabel6
             // 
-            this.materialTabSelector1.BaseTabControl = this.materialTabControl1;
-            this.materialTabSelector1.Depth = 0;
-            this.materialTabSelector1.Location = new System.Drawing.Point(0, 62);
-            this.materialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialTabSelector1.Name = "materialTabSelector1";
-            this.materialTabSelector1.Size = new System.Drawing.Size(929, 23);
-            this.materialTabSelector1.TabIndex = 3;
-            this.materialTabSelector1.Text = "materialTabSelector1";
+            this.materialLabel6.Depth = 0;
+            this.materialLabel6.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel6.Image = ((System.Drawing.Image)(resources.GetObject("materialLabel6.Image")));
+            this.materialLabel6.Location = new System.Drawing.Point(174, 196);
+            this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel6.Name = "materialLabel6";
+            this.materialLabel6.Size = new System.Drawing.Size(510, 32);
+            this.materialLabel6.TabIndex = 5;
             // 
-            // materialFlatButtonConnect
+            // materialLabel5
             // 
-            this.materialFlatButtonConnect.Depth = 0;
-            this.materialFlatButtonConnect.Location = new System.Drawing.Point(851, 62);
-            this.materialFlatButtonConnect.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFlatButtonConnect.Name = "materialFlatButtonConnect";
-            this.materialFlatButtonConnect.Primary = true;
-            this.materialFlatButtonConnect.Size = new System.Drawing.Size(74, 21);
-            this.materialFlatButtonConnect.TabIndex = 4;
-            this.materialFlatButtonConnect.Text = "连接";
-            this.materialFlatButtonConnect.UseVisualStyleBackColor = true;
-            this.materialFlatButtonConnect.Click += new System.EventHandler(this.materialFlatButtonConnect_Click);
-            // 
-            // materialLabel1
-            // 
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(3, 9);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(84, 24);
-            this.materialLabel1.TabIndex = 0;
-            this.materialLabel1.Text = "灰色预测";
-            // 
-            // materialLabel2
-            // 
-            this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(2, 33);
-            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(923, 62);
-            this.materialLabel2.TabIndex = 1;
-            this.materialLabel2.Text = "通过鉴别系统因素之间发展趋势的相异程度，即进行关联分析，并对原始数据进行生成处理来寻找系统变动的规律，生成有较强规律性的数据序列，然后建立相应的微分方程模型，从而" +
-    "预测事物未来发展趋势的状况。其用等时距观测到的反应预测对象特征的一系列数量值构造灰色预测模型，预测未来某一时刻的特征量，或达到某一特征量的时间。";
+            this.materialLabel5.Depth = 0;
+            this.materialLabel5.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel5.Location = new System.Drawing.Point(2, 230);
+            this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel5.Name = "materialLabel5";
+            this.materialLabel5.Size = new System.Drawing.Size(923, 62);
+            this.materialLabel5.TabIndex = 4;
+            this.materialLabel5.Text = "从回归方程可知，自回归移动平均模型综合了AR和MA两个模型的优势，在ARMA模型中，自回归过程负责量化当前数据与前期数据之间的关系，移动平均过程负责解决随机变动项" +
+    "的求解问题。";
             // 
             // materialLabel3
             // 
@@ -3589,30 +3565,54 @@
             this.materialLabel4.TabIndex = 2;
             this.materialLabel4.Text = "自回归滑动平均模型";
             // 
-            // materialLabel5
+            // materialLabel2
             // 
-            this.materialLabel5.Depth = 0;
-            this.materialLabel5.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel5.Location = new System.Drawing.Point(2, 230);
-            this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel5.Name = "materialLabel5";
-            this.materialLabel5.Size = new System.Drawing.Size(923, 62);
-            this.materialLabel5.TabIndex = 4;
-            this.materialLabel5.Text = "从回归方程可知，自回归移动平均模型综合了AR和MA两个模型的优势，在ARMA模型中，自回归过程负责量化当前数据与前期数据之间的关系，移动平均过程负责解决随机变动项" +
-    "的求解问题。";
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel2.Location = new System.Drawing.Point(2, 33);
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            this.materialLabel2.Size = new System.Drawing.Size(923, 62);
+            this.materialLabel2.TabIndex = 1;
+            this.materialLabel2.Text = "通过鉴别系统因素之间发展趋势的相异程度，即进行关联分析，并对原始数据进行生成处理来寻找系统变动的规律，生成有较强规律性的数据序列，然后建立相应的微分方程模型，从而" +
+    "预测事物未来发展趋势的状况。其用等时距观测到的反应预测对象特征的一系列数量值构造灰色预测模型，预测未来某一时刻的特征量，或达到某一特征量的时间。";
             // 
-            // materialLabel6
+            // materialLabel1
             // 
-            this.materialLabel6.Depth = 0;
-            this.materialLabel6.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel6.Image = ((System.Drawing.Image)(resources.GetObject("materialLabel6.Image")));
-            this.materialLabel6.Location = new System.Drawing.Point(174, 196);
-            this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel6.Name = "materialLabel6";
-            this.materialLabel6.Size = new System.Drawing.Size(510, 32);
-            this.materialLabel6.TabIndex = 5;
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel1.Location = new System.Drawing.Point(3, 9);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(84, 24);
+            this.materialLabel1.TabIndex = 0;
+            this.materialLabel1.Text = "灰色预测";
+            // 
+            // materialTabSelector1
+            // 
+            this.materialTabSelector1.BaseTabControl = this.materialTabControl1;
+            this.materialTabSelector1.Depth = 0;
+            this.materialTabSelector1.Location = new System.Drawing.Point(0, 62);
+            this.materialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialTabSelector1.Name = "materialTabSelector1";
+            this.materialTabSelector1.Size = new System.Drawing.Size(929, 23);
+            this.materialTabSelector1.TabIndex = 3;
+            this.materialTabSelector1.Text = "materialTabSelector1";
+            // 
+            // materialFlatButtonConnect
+            // 
+            this.materialFlatButtonConnect.Depth = 0;
+            this.materialFlatButtonConnect.Location = new System.Drawing.Point(851, 62);
+            this.materialFlatButtonConnect.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialFlatButtonConnect.Name = "materialFlatButtonConnect";
+            this.materialFlatButtonConnect.Primary = true;
+            this.materialFlatButtonConnect.Size = new System.Drawing.Size(74, 21);
+            this.materialFlatButtonConnect.TabIndex = 4;
+            this.materialFlatButtonConnect.Text = "连接";
+            this.materialFlatButtonConnect.UseVisualStyleBackColor = true;
+            this.materialFlatButtonConnect.Click += new System.EventHandler(this.materialFlatButtonConnect_Click);
             // 
             // Form1
             // 
